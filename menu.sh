@@ -113,7 +113,7 @@ echo -e " 29\e[1;33m)\e[m  Status Tunneling"
 
 echo -e "\e[32m------------------------------------------\e[m" | lolcat
 
-echo -e " x.   Exit" | lolcat
+echo -e " x\e[1;33m)\e[m   Exit" | lolcat
 
 echo -e "\e[32m------------------------------------------\e[m" | lolcat
 
