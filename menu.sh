@@ -111,11 +111,11 @@ echo -e " 28\e[1;33m)\e[m  Pointing Bug"
 
 echo -e " 29\e[1;33m)\e[m  Status Tunneling"
 
-echo -e "\e[32m------------------------------------------\e[m" | lolcat
+echo -e "=====================================================" | lolcat
 
-echo -e " x\e[1;33m)\e[m   Exit" | lolcat
+echo -e " x\e[1;33m)\e[m    Exit" | lolcat
 
-echo -e "\e[32m------------------------------------------\e[m" | lolcat
+echo -e "=====================================================" | lolcat
 
 echo -e ""
 
