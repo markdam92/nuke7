@@ -22,8 +22,8 @@ ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )
 CITY=$(curl -s ipinfo.io/city )
 WKT=$(curl -s ipinfo.io/timezone )
 IPVPS=$(curl -s ipv4.icanhazip.com )
-	echo "--------------- Welcome To Premium Script Menu ---------------" | lolcat -a -d 10
-	echo "------------------------ Moddified By Nuke7 -----------------------" | lolcat -a -d 10
+	echo "----------- Welcome To Premium Script Menu ------------" | lolcat -a -d 10
+	echo "----------------- Moddified By Nuke7 -------------------" | lolcat -a -d 10
 	echo " "
 	cname=$( awk -F: '/model name/ {name=$2} END {print name}' /proc/cpuinfo )
 	cores=$( awk -F: '/model name/ {core++} END {print core}' /proc/cpuinfo )
@@ -43,7 +43,7 @@ IPVPS=$(curl -s ipv4.icanhazip.com )
 	echo -e "\e[032;1mTime:\e[0m $WKT"
 	echo -e "\e[033;1mIPVPS:\e[0m $IPVPS"
 	date | lolcat
-	echo -e "-----------------------------------------------------" | lolcat -a -d 10
+	echo -e "-------------------------------------------------" | lolcat -a -d 10
 
 echo -e ""
 
@@ -111,11 +111,11 @@ echo -e " 28\e[1;33m)\e[m  Pointing Bug"
 
 echo -e " 29\e[1;33m)\e[m  Status Tunneling"
 
-echo -e "=====================================================" | lolcat
+echo -e "==================================================" | lolcat
 
 echo -e " x\e[1;33m)\e[m    Exit" | lolcat
 
-echo -e "=====================================================" | lolcat
+echo -e "==================================================" | lolcat
 
 echo -e ""
 
