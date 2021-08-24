@@ -1,4 +1,17 @@
 #!/bin/bash
+clear
+figlet Nuke7 Project | lolcat -a -d 10
+if [[ -e /etc/debian_version ]]; then
+	OS=debian
+	RCLOCAL='/etc/rc.local'
+elif [[ -e /etc/centos-release || -e /etc/redhat-release ]]; then
+	OS=centos
+	RCLOCAL='/etc/rc.d/rc.local'
+	chmod +x /etc/rc.d/rc.local
+else
+	echo "It looks like you are not running this installer on Debian, Ubuntu or Centos system"
+	exit
+fi
 yl='\e[32;1m'
 bl='\e[36;1m'
 gl='\e[32;1m'
@@ -10,8 +23,6 @@ or='\033[1;33m'
 bd='\e[1m'
 MYIP=$(wget -qO- ifconfig.co);
 echo "Checking VPS"
-clear 
-cat /usr/bin/bannerku | lolcat
 ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )
 CITY=$(curl -s ipinfo.io/city )
 WKT=$(curl -s ipinfo.io/timezone )
