@@ -42,7 +42,7 @@ echo -e  " $gl ║\e[m$bd 4$bl]\e[m$bd Panel SSTP  Account"
 echo -e  " $bl ║\e[m$bd 5$bl]\e[m$bd Panel SSR & SS Account"
 echo -e  " $bl ║\e[m$bd 6$bl]\e[m$bd Panel V2Ray"
 echo -e  " $bl ║\e[m$bd 7$bl]\e[m$bd Panel VLess"
-echo -e  " $bl ║\e[m$bd 8$bl]\e[m$bd Panel TrojanGFW                                         ╥"
+echo -e  " $bl ║\e[m$bd 8$bl]\e[m$bd Panel Trojan                                           ╥"
 echo -e   "  \e[1;32m╠════════════════════════════════════════════════════════════╣\e[m" | lolcat
 echo -e   "  ║                       ┃SYSTEM MENU┃                        ║\e[m" | lolcat 
 echo -e   "  \e[1;32m╠════════════════════════════════════════════════════════════╣\e[m" | lolcat
@@ -66,12 +66,12 @@ echo -e   " $bl ║\e[m$bd 25$bl]\e[m$bd Restart All Service"
 echo -e   " $bl ║\e[m$bd 26$bl]\e[m$bd Add ID Cloudfare"
 echo -e   " $bl ║\e[m$bd 27$bl]\e[m$bd Cloudfare Add-Ons"
 echo -e   " $bl ║\e[m$bd 28$bl]\e[m$bd Pointing Bug" 
-echo -e   " $bl ║\e[m$bd 30$bl]\e[m$bd Status Running                                           ╥"
+echo -e   " $bl ║\e[m$bd 29$bl]\e[m$bd Status Running                                           ╥"
 echo -e   "  \e[1;32m╠════════════════════════════════════════════════════════════╣\e[m" | lolcat
 echo -e   "  ║ x)   Exit                                                  ║\e[m" | lolcat
 echo -e   "  \e[1;32m╚════════════════════════════════════════════════════════════╝\e[m" | lolcat
 echo -e   ""
-read -p "     Select From Options [1-30 or x] :  " menu
+read -p "     Select From Options [1-29 or x] :  " menu
 echo -e   ""
 case $menu in
 1)
