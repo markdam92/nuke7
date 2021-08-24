@@ -109,13 +109,13 @@ echo -e " 27\e[1;33m)\e[m  Cloudfare Add-Ons"
 
 echo -e " 28\e[1;33m)\e[m  Pointing Bug"
 
-echo -e " 29\e[1;33m)\e[m  Status Tunneling"
+echo -e " 29\e[1;33m)\e[m  Status Running system"
 
-echo -e "==================================================" | lolcat
+echo -e "------------------------------------------------------" | lolcat
 
 echo -e " x\e[1;33m)\e[m    Exit" | lolcat
 
-echo -e "==================================================" | lolcat
+echo -e "------------------------------------------------------" | lolcat
 
 echo -e ""
 
