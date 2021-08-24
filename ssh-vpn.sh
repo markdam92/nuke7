@@ -250,7 +250,7 @@ netfilter-persistent reload
 cd /usr/bin
 wget -O add-host "https://raw.githubusercontent.com/markdam92/nuke7/main/add-host.sh"
 wget -O about "https://raw.githubusercontent.com/markdam92/nuke7/main/about.sh"
-wget -O menur "https://raw.githubusercontent.com/markdam92/nuke7/main/menur.sh"
+wget -O menu "https://raw.githubusercontent.com/markdam92/nuke7/main/menu.sh"
 wget -O usernew "https://raw.githubusercontent.com/markdam92/nuke7/main/usernew.sh"
 wget -O trial "https://raw.githubusercontent.com/markdam92/nuke7/main/trial.sh"
 wget -O hapus "https://raw.githubusercontent.com/markdam92/nuke7/main/hapus.sh"
@@ -295,7 +295,7 @@ wget -O cff "https://raw.githubusercontent.com/markdam92/nuke7/main/cff.sh"
 wget -O cfh "https://raw.githubusercontent.com/markdam92/nuke7/main/cfh.sh"
 wget -O cfd "https://raw.githubusercontent.com/markdam92/nuke7/main/cfd.sh"
 chmod +x add-host
-chmod +x menur
+chmod +x menu
 chmod +x usernew
 chmod +x trial
 chmod +x hapus
