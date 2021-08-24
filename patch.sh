@@ -17,7 +17,7 @@ cd /usr/bin
 cd /usr/bin
 wget -O add-host "https://raw.githubusercontent.com/markdam92/nuke7/main/add-host.sh"
 wget -O about "https://raw.githubusercontent.com/markdam92/nuke7/main/about.sh"
-wget -O menu "https://raw.githubusercontent.com/markdam92/nuke7/main/menu.sh"
+wget -O menur "https://raw.githubusercontent.com/markdam92/nuke7/main/menur.sh"
 wget -O usernew "https://raw.githubusercontent.com/markdam92/nuke7/main/usernew.sh"
 wget -O trial "https://raw.githubusercontent.com/markdam92/nuke7/main/trial.sh"
 wget -O hapus "https://raw.githubusercontent.com/markdam92/nuke7/main/hapus.sh"
