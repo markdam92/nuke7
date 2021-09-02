@@ -42,6 +42,7 @@ IPVPS=$(curl -s ipv4.icanhazip.com )
 	echo -e "\e[032;1mCity:\e[0m $CITY"
 	echo -e "\e[032;1mTime:\e[0m $WKT"
 	echo -e "\e[033;1mIPVPS:\e[0m $IPVPS"
+	echo -e "\e[032;1mDOMAIN:\e[0m $DOMAIN"
 	date | lolcat
 	echo -e "-------------------------------------------------" | lolcat -a -d 10
 
