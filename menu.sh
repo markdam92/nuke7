@@ -41,8 +41,8 @@ IPVPS=$(curl -s ipv4.icanhazip.com )
 	echo -e "\e[032;1mIsp Name:\e[0m $ISP"
 	echo -e "\e[032;1mCity:\e[0m $CITY"
 	echo -e "\e[032;1mTime:\e[0m $WKT"
-	echo -e "\e[033;1mIPVPS:\e[0m $IPVPS"
 	echo -e "\e[032;1mDOMAIN:\e[0m $DOMAIN"
+	echo -e "\e[033;1mIPVPS:\e[0m $IPVPS"
 	date | lolcat
 	echo -e "-------------------------------------------------" | lolcat -a -d 10
 
@@ -50,21 +50,21 @@ echo -e ""
 
 echo -e "     Tunneling Menu" | lolcat -a -d 10
 
-echo -e " 1\e[1;33m)\e[m  Control Panel SSH & OVPN"
+echo -e " 1\e[1;33m)\e[m  Panel SSH & OVPN"
 
-echo -e " 2\e[1;33m)\e[m  Control Panel Wireguard"
+echo -e " 2\e[1;33m)\e[m  Panel Wireguard"
 
-echo -e " 3\e[1;33m)\e[m  Control Panel L2TP & PPTP"
+echo -e " 3\e[1;33m)\e[m  Panel L2TP & PPTP"
 
-echo -e " 4\e[1;33m)\e[m  Control Panel SSTP"
+echo -e " 4\e[1;33m)\e[m  Panel SSTP"
 
-echo -e " 5\e[1;33m)\e[m  Control Panel SSR & Shadowsocks"
+echo -e " 5\e[1;33m)\e[m  Panel SSR & Shadowsocks"
 
-echo -e " 6\e[1;33m)\e[m  Control Panel Vmess/V2ray"
+echo -e " 6\e[1;33m)\e[m  Panel Vmess/V2ray"
 
-echo -e " 7\e[1;33m)\e[m  Control Panel Vless"
+echo -e " 7\e[1;33m)\e[m  Panel Vless"
 
-echo -e " 8\e[1;33m)\e[m  Control Panel Trojan"
+echo -e " 8\e[1;33m)\e[m  Panel Trojan"
 
 echo -e ""
 
